@@ -1,0 +1,116 @@
+@import '/golovna-style/reset-golovna.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+    font-family: 'Montserrat Alternates', sans-serif; 
+}
+.page-wrapper {
+}
+.nav-wrapper {
+    
+}
+.container {
+
+}
+.nav-menu {
+    background: #DFDFDF;
+    width: 1700px;
+    position: fixed;
+    display: flex;
+    align-items: center;
+}
+.nav-menu-logo {
+  padding-left: 150px;
+}
+.nav-menu__img {
+    height: 90px;
+    width: 100px;
+}
+.nav-menu-left {
+    width: 1310px;
+   height: 64px;
+   display: flex;
+   align-items: center;
+}
+.nav-menu-choices {
+    width: 298px;
+height: 32px;
+flex-shrink: 0;
+margin-left: 100px;
+}
+.nav-menu-choice {
+    color: #000;
+font-family: Montserrat Alternates;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left: 10px;
+}
+.nav-menu-poshuk {
+    position: relative;
+    width: 200px;
+    height: 30px;
+    margin-left: 100px;
+}
+.nav-menu-poshuk::before{
+    Content: '';
+    position: absolute;
+    background:url(/golovna.image/poshuk.png)no-repeat center/cover;
+    width: 29px;
+    height: 23px;
+    top: 3%;
+    right: 102%;
+}
+.nav-menu-poshuk::after{
+    content: '';
+    position: absolute;
+    background: url(/golovna.image/voice.png)no-repeat center/cover;
+    width: 23px;
+    height: 27px;
+    top: 2%;
+    left: 89%;
+}
+.nav-menu__input {
+    width: 169px;
+height: 24px;
+flex-shrink: 0;
+border:1px solid #DFDFDF ;
+}
+.nav-menu-submits{
+margin-left: 6px;
+
+}
+.nav-menu__submit {
+    border-radius: 4px;
+background: #4234E2;
+color: #fff;
+}
+.nav-menu-lang {
+    display: inline-flex;
+    padding: 3px 0px 5px 2px;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin-left: 100px;
+}
+.nav-menu__lang-txt {
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;    
+}
+.nav-menu-entrance {
+    margin-left: 160px;
+}
+.nav-menu__people {
+    width: 40px;
+height: 25px;
+flex-shrink: 0;
+}
+.nav-menu__corsina {
+    width: 47.638px;
+height: 25px;
+flex-shrink: 0;
+}
