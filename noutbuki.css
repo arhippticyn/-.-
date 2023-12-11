@@ -36,11 +36,10 @@ body{
 height: 32px;
 flex-shrink: 0;
 margin-left: 100px;
-
 }
 .nav-menu-choicesul{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .nav-menu-choice {
     color: #000;
