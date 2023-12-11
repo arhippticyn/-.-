@@ -4,127 +4,122 @@ body{
     font-family: 'Montserrat Alternates', sans-serif; 
 }
 .page-wrapper {
-}
-.nav-wrapper {
     
 }
+.nav-wrapper {
+    background: #DFDFDF;
+    width: 100%;
+}
 .container {
-
+    padding: 15px 150px 15px 150px;
 }
 .nav-menu {
-    background: #DFDFDF;
-    width: 1700px;
-    position: fixed;
     display: flex;
     align-items: center;
 }
 .nav-menu-logo {
-  padding-left: 150px;
+}
+.nav-menu__img__a {
+    width: 100px;
+    height: 90px;
 }
 .nav-menu__img {
-    height: 90px;
-    width: 100px;
 }
 .nav-menu-left {
-    width: 1310px;
-   height: 64px;
+    display: flex;
+}
+.nav-menu-choices {
+   margin-left: 100px;
    display: flex;
    align-items: center;
 }
-.nav-menu-choices {
-    width: 298px;
-height: 32px;
-flex-shrink: 0;
-margin-left: 100px;
 
-}
-.nav-menu-choicesul{
+.nav-menu-choicesul {
     display: flex;
-    flex-direction: row;
+    width: 298px;
+    height: 32px;
+    flex-shrink: 0;
+    gap: 20px;
+    display: flex;
+    align-items: center;
 }
-.nav-menu-choice {
-    color: #000;
-font-family: Montserrat Alternates;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-padding-left: 10px;
-opacity: 0.9;
-}
-.nav-menu-choice:hover{
-    opacity: 2;
-    color: #2511c0;
-font-family: Montserrat Alternates;
-font-size: 16px;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-text-decoration: solid;
+.nav-menu-choice:hover {
+    color: #4234E2;
 }
 .nav-menu-poshuk {
-    position: relative;
-    width: 200px;
-    height: 30px;
-    margin-left: 100px;
-}
-.nav-menu-poshuk::before{
-    Content: '';
-    position: absolute;
-    background:url(/golovna.image/poshuk.png)no-repeat center/cover;
-    width: 29px;
-    height: 23px;
-    top: 3%;
-    right: 102%;
-}
-.nav-menu-poshuk::after{
-    content: '';
-    position: absolute;
-    background: url(/golovna.image/voice.png)no-repeat center/cover;
-    width: 23px;
-    height: 27px;
-    top: 2%;
-    left: 89%;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    gap: 10px;
 }
 .nav-menu__input {
-    width: 169px;
-height: 24px;
-flex-shrink: 0;
-border:1px solid #DFDFDF ;
-}
-.nav-menu-submits{
-margin-left: 6px;
-
+    width: 400px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    font-size: 15px;
 }
 .nav-menu__submit {
-    border-radius: 4px;
-background: #4234E2;
-color: #fff;
+    width: 70px;
+  position: relative;
+  height: 3.5em;
+  border: 3px ridge #149CEA;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  transition: 1s;
+  border-radius: 0.3em;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.nav-menu__submit::after{
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: #DFDFDF;
+    transition: 0.5s;
+    transform-origin: center;
+}
+.nav-menu__submit::before{
+    content: "";
+  transform-origin: center;
+  position: absolute;
+  top: 80%;
+  left: 3%;
+  width: 95%;
+  height: 40%;
+  background-color: #DFDFDF;
+  transition: 0.5s;
+}
+.nav-menu__submit:hover::before, .nav-menu__submit:hover::after{
+    transform: scale(0)
+}
+.nav-menu__submit:hover{
+    box-shadow: inset 0px 0px 25px #1479EA;
 }
 .nav-menu-lang {
-    display: inline-flex;
-    padding: 3px 0px 5px 2px;
-    justify-content: center;
+    display: flex;
     align-items: center;
-    gap: 6px;
-    margin-left: 100px;
+    margin-left: 50px;
+    gap: 5px;
 }
-.nav-menu__lang-txt {
-    color: #000;
-    font-family: Montserrat Alternates;
-    font-size: 12px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;    
+.nav-menu__lang-txt:hover{
+    color: #4234E2 ;
 }
+.nav-menu__lang-lein{
+    width: 1px;
+    height: 20px;
+    background: #000;
+    border: none;
+}
+
 .nav-menu-entrance {
-    margin-left: 160px;
-}
-.nav-menu__people {
-    object-fit:cover;
-    width: 40px;
-}
-.nav-menu__corsina {
-    object-fit:cover;
-    width: 40px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 52px;
 }
