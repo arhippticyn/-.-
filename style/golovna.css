@@ -1,4 +1,4 @@
-@import '/golovna-style/reset.css';
+@import '/style/reset.css';
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap');
 body{
     font-family: 'Montserrat Alternates', sans-serif; 
@@ -80,7 +80,7 @@ body{
 .nav-menu-lang {
     display: flex;
     align-items: center;
-    margin-left: 60px;
+    margin-left: 40px;
     gap: 5px;
 }
 .nav-menu__lang-txt:hover{
@@ -149,9 +149,6 @@ body{
 
 }
 
-.section-afisha{
-
-}
 .slideshow-container {
   max-width: 1000px;
   position: relative;
@@ -197,6 +194,7 @@ body{
     width: 170px;
     height: 50px;
     flex-shrink: 0;
+    
 }
 .section-brands-line {
     width: 1px;
@@ -235,4 +233,185 @@ body{
     border-radius: 50px;
     margin-top: 8px;
     margin-left: 30px;
+    
+}
+
+.section-sale{
+    display: flex;
+    gap: 15px;
+    margin-top: 100px;
+}
+
+.section-sale__title{
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 66.667% */
+    letter-spacing: -0.6px;
+}
+
+.section-sale__all{
+    color: #0015D1;
+    font-family: Montserrat Alternates;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: -0.28px;
+    position: relative;
+}
+
+.section-sale__all::after{
+  content: " ➞";
+  position: absolute;
+  margin-left: 5px;
+}
+
+.checked {
+    color: orange;
+}
+
+.section-sale__cart__one{
+    width: 280px;
+    height: 420px;
+    flex-shrink: 0;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 12px;
+    background: #FFF;
+    display: flex;
+    flex-direction: column;
+    align-items: center;   
+}
+
+.section-sale__cart__one__img{
+    width: 260px;
+    height: 160px;
+    flex-shrink: 0;
+    margin-top: 20px;
+}
+
+.section-sale__cart{
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 95px;
+    flex-wrap: wrap; 
+
+}
+
+.section-sale__cart__one__abouttheproduct{
+    display: flex;
+    width: 275px;
+    height: 246px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+    flex-shrink: 0;
+    padding: 10px;
+
+}
+
+.section-sale__cart__one__abouttheproduct__priceсhanged{
+    color: #808080;
+    font-family: Montserrat Alternates;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 125% */
+    letter-spacing: -0.64px;
+    text-decoration-line: strikethrough;
+    text-transform: uppercase;
+    text-decoration: line-through;
+}
+
+.section-sale__cart__one__abouttheproduct__price{
+    color: #F00;
+    font-family: Montserrat Alternates;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: -5px;
+}
+
+.section-sale__cart__one__abouttheproduct__description{
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: -0.28px;
+}
+
+.section-sale__cart__one__abouttheproduct__star{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-top: 5px;
+    
+}
+
+.section-sale__cart__one__abouttheproduct__star__namber{
+    color: #999;
+    font-family:Montserrat Alternates;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: -0.28px;
+    margin-left: 5px;
+}
+
+.section-sale__cart__one__abouttheproduct__delivery-info-delivery{
+    color: #999;
+    font-family: Montserrat Alternates;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: -0.28px;
+}
+
+.section-sale__cart__one__abouttheproduct__delivery-info-order{
+    color: #242424;
+    font-family: Montserrat Alternates;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: -0.28px;
+}
+
+
+
+.section-sale__cart__one__abouttheproduct__buy {
+    padding: 17px 65px;
+    border-radius: 50px;
+    cursor: pointer;
+    border: 0;
+    background-color: white;
+    box-shadow: rgb(0 0 0 / 30%) 0 0 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all 0.5s ease;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+  
+  .section-sale__cart__one__abouttheproduct__buy:hover {
+    letter-spacing: 1px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+  }
+  
+  .section-sale__cart__one__abouttheproduct__buy:active {
+    letter-spacing: 1px;
+    background-color: hsl(261deg 80% 48%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
 }

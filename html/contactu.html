@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/golovna-style/login.css">
     <link rel="icon" href="/icom-image/photo_2023-11-12_22-06-29.jpg">
-    <title>Увійти</title>
+    <link rel="stylesheet" href="/style/contactu.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Контакти</title>
 </head>
 <body>
     <div class="page-wrapper">
@@ -13,13 +14,13 @@
             <div class="container">
                 <nav class="nav-menu">
                     <div class="nav-menu-logo">
-                        <a class="nav-menu__img__a" href="/golovna.html"><img src="/golovna.image/logo-golovna.png" alt="logo" class="nav-menu__img"></a>
+                        <a class="nav-menu__img__a" href="/html/golovna.html"><img src="/golovna.image/logo-golovna.png" alt="logo" class="nav-menu__img"></a>
                     </div>
                     <div class="nav-menu-left">
                         <div class="nav-menu-choices">
                             <ul class="nav-menu-choicesul">
-                                <li><a href="/golovna.html" class="nav-menu-choice">Головна</a></li>
-                                <li><a href="" class="nav-menu-choice">Контакти </a></li>
+                                <li><a href="/html/golovna.html" class="nav-menu-choice">Головна</a></li>
+                                <li><a href="/html/contactu.html" class="nav-menu-choice">Контакти </a></li>
                                 <li><a href="" class="nav-menu-choice">Про нас</a></li>
                             </ul> 
                         </div>
@@ -34,7 +35,7 @@
                                   </clipPath>
                                 </defs>
                               </svg>
-                            <input class="nav-menu__input" required type="search" placeholder="Я шукаю...">
+                            <input class="nav-menu__input" required type="text" placeholder="Я шукаю...">
                             <svg xmlns="http://www.w3.org/2000/svg" width="21" height="22" viewBox="0 0 21 22" fill="none">
                                 <g clip-path="url(#clip0_10_23)">
                                   <path d="M10.5 0C7.60156 0 5.25 1.84766 5.25 4.125V11C5.25 13.2773 7.60156 15.125 10.5 15.125C13.3984 15.125 15.75 13.2773 15.75 11V4.125C15.75 1.84766 13.3984 0 10.5 0ZM3.5 9.28125C3.5 8.70977 2.91484 8.25 2.1875 8.25C1.46016 8.25 0.875 8.70977 0.875 9.28125V11C0.875 14.8285 4.49531 17.991 9.1875 18.4937V19.9375H6.5625C5.83516 19.9375 5.25 20.3973 5.25 20.9688C5.25 21.5402 5.83516 22 6.5625 22H10.5H14.4375C15.1648 22 15.75 21.5402 15.75 20.9688C15.75 20.3973 15.1648 19.9375 14.4375 19.9375H11.8125V18.4937C16.5047 17.991 20.125 14.8285 20.125 11V9.28125C20.125 8.70977 19.5398 8.25 18.8125 8.25C18.0852 8.25 17.5 8.70977 17.5 9.28125V11C17.5 14.0379 14.3664 16.5 10.5 16.5C6.63359 16.5 3.5 14.0379 3.5 11V9.28125Z" fill="black"/>
@@ -53,7 +54,7 @@
                             <a class="nav-menu__lang-txt" href="">RU</a>
                         </div>
                         <div class="nav-menu-entrance">
-                            <a class=" " href="/autorizen.html"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="25" viewBox="0 0 40 25" fill="none">
+                            <a class=" " href="/html/autorizen.html"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="25" viewBox="0 0 40 25" fill="none">
                                 <g clip-path="url(#clip0_10_13)">
                                   <path d="M20 12.5C23.031 12.5 25.9379 11.8415 28.0812 10.6694C30.2245 9.49732 31.4286 7.9076 31.4286 6.25C31.4286 4.5924 30.2245 3.00269 28.0812 1.83058C25.9379 0.65848 23.031 0 20 0C16.969 0 14.0621 0.65848 11.9188 1.83058C9.77551 3.00269 8.57143 4.5924 8.57143 6.25C8.57143 7.9076 9.77551 9.49732 11.9188 10.6694C14.0621 11.8415 16.969 12.5 20 12.5ZM15.9196 14.8438C7.125 14.8438 0 18.7402 0 23.5498C0 24.3506 1.1875 25 2.65179 25H37.3482C38.8125 25 40 24.3506 40 23.5498C40 18.7402 32.875 14.8438 24.0804 14.8438H15.9196Z" fill="black"/>
                                 </g>
@@ -69,21 +70,6 @@
                         </div>
                     </div>
                 </nav>
-            </div>
-        </div>
-        <div class="main-wrapper">
-            <div class="container">
-                <main class="main">
-                    <form class="main-forms" action="">
-                        <h1 class="form__title">Увійти</h1>
-                        <label class="form__label" for="email">Введіть електронну адресу </label>
-                        <input name="email" required placeholder="Введіть ваш email" class="form__input" type="email">
-                        <label class="form__label" for="password">Введіть пароль</label>
-                        <input class="form__inputs" type="password" name="password" required placeholder="Введіть пароль">
-                        <button class="form__submit" type="submit">Увійти</button>
-                        <a class="form__login" href="/autorizen.html">Нема аккаунта? Зарегіструватись</a>
-                    </form>
-                </main>
             </div>
         </div>
     </div>
