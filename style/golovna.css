@@ -8,6 +8,7 @@ body{
 }
 .nav-wrapper {
     width: 100%;
+    background: #DFDFDF;
 }
 .container {
     padding: 15px 150px 15px 150px;
@@ -15,7 +16,6 @@ body{
 .nav-menu {
     display: flex;
     align-items: center;
-    background: #DFDFDF;
 }
 .nav-menu-logo {
 }
