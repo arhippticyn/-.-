@@ -11,7 +11,7 @@ body{
     width: 100%;
 }
 .container {
-    padding: 15px 51px 15px 51px;
+    padding: 15px 150px 15px 150px;
 }
 .nav-menu {
     display: flex;
@@ -29,17 +29,19 @@ body{
     display: flex;
 }
 .nav-menu-choices {
-   margin-left: 100px;
+   margin-left: 70px;
    display: flex;
-    align-items: center;
+   align-items: center;
 }
 
 .nav-menu-choicesul {
     display: flex;
-    width: 298px;
+    width: 275px;
     height: 32px;
     flex-shrink: 0;
     gap: 20px;
+    display: flex;
+    align-items: center;
 }
 .nav-menu-choice:hover {
     color: #4234E2;
@@ -47,46 +49,38 @@ body{
 .nav-menu-poshuk {
     display: flex;
     align-items: center;
-    margin-left: 20px;
+    margin-left: 50px;
     gap: 10px;
 }
 .nav-menu__input {
-    width: 400px;
+    width: 465px;
     height: 30px;
     flex-shrink: 0;
     border-radius: 50px;
     font-size: 15px;
 }
 .nav-menu__submit {
-    padding: 17px 40px;
-    border-radius: 50px;
-    cursor: pointer;
-    border: 0;
-    background-color: white;
-    box-shadow: rgb(0 0 0 / 5%) 0 0 8px;
-    letter-spacing: 1.5px;
-    text-transform: uppercase;
-    font-size: 15px;
-    transition: all 0.5s ease;
+    display: flex;
+    width: 80px;
+    height: 30px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #4234E2;
+    color: white;
 }
 .nav-menu__submit:hover{
-    letter-spacing: 3px;
-  background-color: hsl(261deg 80% 48%);
-  color: hsl(0, 0%, 100%);
-  box-shadow: rgb(93 24 220) 0px 7px 29px 0px;
+  
+    background: #0f029d;
 }
-.nav-menu__submit:active{
-    letter-spacing: 3px;
-  background-color: hsl(261deg 80% 48%);
-  color: hsl(0, 0%, 100%);
-  box-shadow: rgb(93 24 220) 0px 0px 0px 0px;
-  transform: translateY(10px);
-  transition: 100ms;
-}
+
 .nav-menu-lang {
     display: flex;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 60px;
     gap: 5px;
 }
 .nav-menu__lang-txt:hover{
@@ -103,6 +97,5 @@ body{
     display: flex;
     align-items: center;
     gap: 20px;
-    margin-left: 105px;
+    margin-left: 30px;
 }
-
