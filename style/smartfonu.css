@@ -99,3 +99,131 @@ body{
     gap: 20px;
     margin-left: 30px;
 }
+.main-wrapper {
+}
+.container {
+    
+}
+.main {
+}
+.main-menu {
+    
+}
+.main-menu__txt {
+}
+.main__title {
+    margin-top: 20px;
+    color: #000;
+font-family: Montserrat Alternates;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    padding-top: 24px;
+    right: -132px;
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  .next {
+    left: 66%;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  .prev:hover, .next:hover {
+    background-color: rgb(249, 247, 247);
+  }
+  .footer-wrapper {
+    background: #DFDFDF;
+}
+.container {
+}
+.footer {
+    margin-top: 30px;
+}
+.address{
+    display: flex;
+}
+.footer-left {
+    
+}
+.footer-left__tittle {
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer-left-iframe {
+    width: 600px;
+    height: 450px;
+}
+.footer-right {
+  margin-left: 141px;
+  margin-top: 5px;
+}
+.footer-right__title {
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer-right__adress {
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 45px;
+}
+.footer-right__city {
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 50px;
+}
+.footer-right-contacts {
+}
+.footer-right__contact {
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 60px;
+}
+.footer-right-messengers {
+    margin-top: 92px;
+}
+.footer-right-messengers__img {
+    width: 73px;
+height: 70px;
+margin-left: 18px;
+flex-shrink: 0;
+}
