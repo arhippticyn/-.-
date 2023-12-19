@@ -109,7 +109,22 @@ body{
 .main-menu {
     
 }
-.main-menu__txt {
+.main-menu__txt a {
+    color: #000;
+font-family: Montserrat Alternates;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.main-menu__txt a:hover{
+    text-decoration: underline;
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 .main__title {
     margin-top: 20px;
