@@ -1,0 +1,448 @@
+@import '/style/reset.css';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800;900&display=swap');
+body{
+    font-family: 'Montserrat Alternates', sans-serif; 
+}
+.page-wrapper {
+    
+}
+.nav-wrapper {
+    background: #DFDFDF;
+    width: 100%;
+}
+.container {
+    padding: 15px 150px 15px 150px;
+}
+.nav-menu {
+    display: flex;
+    align-items: center;
+}
+.nav-menu-logo {
+}
+.nav-menu__img__a {
+    width: 100px;
+    height: 90px;
+}
+.nav-menu__img {
+}
+.nav-menu-left {
+    display: flex;
+}
+.nav-menu-choices {
+   margin-left: 70px;
+   display: flex;
+   align-items: center;
+}
+
+.nav-menu-choicesul {
+    display: flex;
+    width: 275px;
+    height: 32px;
+    flex-shrink: 0;
+    gap: 20px;
+    display: flex;
+    align-items: center;
+}
+.nav-menu-choice:hover {
+    color: #4234E2;
+}
+.nav-menu-poshuk {
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    gap: 10px;
+}
+.nav-menu__input {
+    width: 465px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    font-size: 15px;
+}
+.nav-menu__submit {
+    display: flex;
+    width: 80px;
+    height: 30px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #4234E2;
+    color: white;
+}
+.nav-menu__submit:hover{
+  
+    background: #0f029d;
+}
+
+.nav-menu-lang {
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+    gap: 5px;
+}
+.nav-menu__lang-txt:hover{
+    color: #4234E2 ;
+}
+.nav-menu__lang-lein{
+    width: 1px;
+    height: 20px;
+    background: #000;
+    border: none;
+}
+
+.nav-menu-entrance {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 30px;
+}
+
+.cataloh{
+    display: flex;
+    gap: 10px;
+}
+
+.tabs__list{
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.breadcrumbs__link {
+    
+}
+  
+.breadcrumbs__link:hover {
+    border-bottom: 1px solid #4234E2;
+    padding-bottom: 3px;
+    color: #4234E2;
+}
+                        
+
+  img {
+    vertical-align: middle;
+  }
+  
+  
+.container2 {
+    position: relative;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+  
+.mySlides {
+    display: none;
+}
+  
+.cursor {
+    cursor: pointer;
+}
+  
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -130px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+  
+.prev{
+    background-color: rgba(197, 197, 197, 0.8);
+    color: #000;
+    margin-left: -50px;
+    border-radius:50px;
+}
+
+.next {
+    background-color: rgba(197, 197, 197, 0.8);
+    color: #000;
+    margin-left: 455px;
+    border-radius:50px;
+}
+  
+.prev:hover,
+.next:hover {
+    background-color: rgba(131, 131, 131, 0.8);
+}
+  
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+  
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+.column {
+    float: left;
+    width: 18%;
+    margin-top: 10px;
+}
+  
+.demo {
+    opacity: 0.6;
+}
+  
+.active,
+.demo:hover {
+    opacity: 1;
+}
+.layout-hr{
+    margin-left: -150px;
+    margin-right: -150px;
+    margin-top: 3px;
+}
+
+.checked {
+    color: orange;
+}
+
+.purchase-of-goods{
+    margin-top: 100px;
+    width: 760px;
+    height: 690px;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-left: 65px;
+}
+
+.purchase-of-goods__name__tover{
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.purchase-of-goods__price{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.purchase-of-goods__price__old{
+    color: #808080;
+    font-family: Montserrat Alternates;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: strikethrough;
+    text-decoration: line-through;
+}
+
+.purchase-of-goods__price__new{
+    color: #F00;
+    font-family: Montserrat Alternates;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.purchase-of-goods__buy{
+    display: inline-flex;
+    padding: 7px 37px;
+    justify-content: center;
+    align-items: center;
+    background: #4234E2;
+    color: #FFF;
+    font-family: Montserrat Alternates;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.purchase-of-goods__credit{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+}
+
+.purchase-of-goods__credit__photo{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+.purchase-of-goods__Buy__on__credit{
+    display: inline-flex;
+    padding: 7px 37px;
+    justify-content: center;
+    align-items: center;
+    background: #4234E2;
+    color: #FFF;
+    font-family: Montserrat Alternates;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 320px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.purchase-of-goods__buy:hover,.purchase-of-goods__Buy__on__credit:hover{
+    background: #0f029d;
+}
+.delivery-about__the__export__itself{
+    display: flex;
+    gap: 120px;
+}
+
+.delivery-about__the__export__itself__the__store, .delivery-about__the__export__itself__Free{
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.delivery-Pickup__from__the__department{
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 15px;
+}
+
+.delivery-new__post{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+.delivery-new__post__the__department,.delivery-new__post__price{
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.delivery-meest{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.delivery-meest__the__department,.delivery-meest__price{
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.footer-wrapper {
+    background: #DFDFDF;
+}
+.container {
+}
+.footer {
+    margin-top: 30px;
+}
+.address{
+    display: flex;
+}
+.footer-left {
+    
+}
+.footer-left__tittle {
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer-left-iframe {
+    width: 600px;
+    height: 450px;
+}
+.footer-right {
+  margin-left: 141px;
+  margin-top: 5px;
+}
+.footer-right__title {
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer-right__adress {
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 45px;
+}
+.footer-right__city {
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 50px;
+}
+.footer-right-contacts {
+}
+.footer-right__contact {
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 60px;
+}
+.footer-right-messengers {
+    margin-top: 92px;
+}
+.footer-right-messengers__img {
+    width: 73px;
+height: 70px;
+flex-shrink: 0;
+}
