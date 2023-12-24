@@ -102,14 +102,15 @@ body{
 
 .contacts{
     display: flex;
-    margin-top: 100px;
+    margin-top: 50px;
     gap: 100px;
+
 }
 
 
 .contacts-left {
     width: 400px;
-    height: 350px;
+    height: 380px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .contacts-left__pronas{
@@ -164,9 +165,15 @@ body{
     row-gap: 5px;
 
 }
+.contacts-left__emeil, span{
+    margin-top: 10px;
+}
+.contacts-left__emeil, a{
+    margin-top: 7px;
+}
 .contacts-right {
     width: 800px;
-    height: 350px;
+    height: 380px;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 
@@ -180,19 +187,123 @@ body{
     width: 250px;
     height: 25px;
 }
+.contacts-right__applicatio__text::placeholder{
+    padding-left: 10px;
+}
 .contacts-right__applicatio__email {
     border: 1px  solid #000;
     width: 250px;
     height: 25px;
+}
+.contacts-right__applicatio__email::placeholder{
+    padding-left: 10px;
 }
 .contacts-right__applicatio__tel {
     border: 1px  solid #000;
     width: 250px;
     height: 25px;
 }
+.contacts-right__applicatio__tel::placeholder{
+    padding-left: 10px;
+}
 .contacts-right__applicatio__textbig {
     border: 1px  solid #000;
     width: 760px;
     height: 290px;
     margin-left: 20px;
+}
+.contacts-right__applicatio__textbig::placeholder{
+    padding-left: 20px;
+}
+.contacts-right__btn{
+    display: flex;
+    width: 80px;
+    height: 30px;
+    padding: 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    background: #4234E2;
+    color: white;
+    margin-left: 20px;
+    margin-top: 8px;
+}
+.footer-wrapper {
+    background: #DFDFDF;
+    margin-top: 20px;
+}
+.container {
+}
+.footer {
+    margin-top: 30px;
+}
+.address{
+    display: flex;
+}
+.footer-left {
+    
+}
+.footer-left__tittle {
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 33px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer-left-iframe {
+    width: 600px;
+    height: 450px;
+}
+.footer-right {
+  margin-left: 141px;
+  margin-top: 5px;
+}
+.footer-right__title {
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.footer-right__adress {
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 45px;
+}
+.footer-right__city {
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 50px;
+}
+.footer-right-contacts {
+}
+.footer-right__contact {
+    color: #000;
+    font-family: Montserrat Alternates;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-top: 60px;
+}
+.footer-right-messengers {
+    margin-top: 92px;
+}
+.footer-right-messengers__img {
+    width: 73px;
+height: 70px;
+margin-left: 18px;
+flex-shrink: 0;
 }
