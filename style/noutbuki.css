@@ -168,8 +168,8 @@ line-height: normal;
     background-color: rgba(0,0,0,0.8);
   }
   .section-sale__cart__one{
-    width: 280px;
-    height: 420px;
+    width: 330px;
+    height: 100%;
     flex-shrink: 0;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
     border-radius: 12px;
@@ -180,10 +180,10 @@ line-height: normal;
 }
 
 .section-sale__cart__one__img{
-    width: 260px;
-    height: 160px;
     flex-shrink: 0;
     margin-top: 20px;
+    object-fit: cover;
+    height: 180px;
 }
 .section-sale__cart{
     margin-top: 50px;

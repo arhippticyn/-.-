@@ -12,6 +12,7 @@ body{
 }
 .container {
     padding: 15px 150px 15px 150px;
+    margin: 0 auto;
 }
 .nav-menu {
     display: flex;
@@ -99,141 +100,50 @@ body{
     gap: 20px;
     margin-left: 30px;
 }
-
-.contacts{
+.main-wrapper {
+}
+.container {
+}
+.main {
     display: flex;
-    margin-top: 50px;
-    gap: 100px;
-
-}
-
-
-.contacts-left {
-    width: 400px;
-    height: 380px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-}
-.contacts-left__pronas{
-    margin: 20px 10px ;
-}
-.contacts-left__calls {
-
-}
-.fa-phone{
-    width: 30px;
-    height: 30px;
-    border-radius: 50px;
-    display: flex;
-    padding: 7px;
-    color: white;
-    background: #0f029d;
-}
-.contacts-left__phone {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 5px;
-}
-
-.contacts-left__phone-Igor {
-    display: flex;
-    gap: 10px;
-}
-.contacts-left__phone-arhip {
-    display: flex;
-    gap: 15px;
-}
-.contacts-left__hr {
-    margin-top: 10px;
-}
-.contacts-left__write {
-    margin-top: 10px;
-}
-.fa-envelope{
-    width: 30px;
-    height: 30px;
-    border-radius: 50px;
-    display: flex;
-    padding: 7px;
-    color: white;
-    background: #0f029d;
-}
-.contacts-left__emeil {
-    margin-top: 10px;
-    display: flex;
-    flex-direction: column;
-    row-gap: 5px;
-
-}
-.contacts-left__emeil, span{
-    margin-top: 10px;
-}
-.contacts-left__emeil, a{
-    margin-top: 7px;
-}
-.contacts-right {
-    width: 800px;
-    height: 380px;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
-}
-
-.contacts-right__applicatio {
-    display: flex;
-    gap: 20px;
-    padding: 10px 20px;
-}
-.contacts-right__applicatio__text {
-    border: 1px  solid #000;
-    width: 250px;
-    height: 25px;
-}
-.contacts-right__applicatio__text::placeholder{
-    padding-left: 10px;
-}
-.contacts-right__applicatio__email {
-    border: 1px  solid #000;
-    width: 250px;
-    height: 25px;
-}
-.contacts-right__applicatio__email::placeholder{
-    padding-left: 10px;
-}
-.contacts-right__applicatio__tel {
-    border: 1px  solid #000;
-    width: 250px;
-    height: 25px;
-}
-.contacts-right__applicatio__tel::placeholder{
-    padding-left: 10px;
-}
-.contacts-right__applicatio__textbig {
-    border: 1px  solid #000;
-    width: 760px;
-    height: 290px;
-    margin-left: 20px;
-}
-.contacts-right__applicatio__textbig::placeholder{
-    padding-left: 20px;
-    padding-top: 5px;
-}
-.contacts-right__btn{
-    display: flex;
-    width: 80px;
-    height: 30px;
-    padding: 8px;
     justify-content: center;
-    align-items: center;
-    gap: 8px;
-    flex-shrink: 0;
-    border-radius: 4px;
-    background: #4234E2;
-    color: white;
-    margin-left: 20px;
-    margin-top: 8px;
+    flex-direction: column;
+}
+.section-biographe {
+}
+.section-biographe__title {
+    font-size: 25px;
+    font-weight: 600;
+    padding-top: 1px;
+}
+.section-biographe__txt {
+    padding-top: 20px;
+    font-size: 16px;
+}
+.section-idea {
+}
+.section-idea__title {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 18px;
+}
+.section-idea__txt {
+    padding-top: 20px;
+    font-size: 16px;
+}
+.section-philisophy {
+}
+.section-philisophy__title {
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 18px;
+}
+.section-philisophy__txt {
+    padding-top: 20px;
+    font-size: 16px;
 }
 .footer-wrapper {
     background: #DFDFDF;
-    margin-top: 20px;
 }
 .container {
 }
