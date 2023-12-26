@@ -59,6 +59,9 @@ body{
     border-radius: 50px;
     font-size: 15px;
 }
+.nav-menu__input::placeholder{
+    padding-left: 10px;
+}
 .nav-menu__submit {
     display: flex;
     width: 80px;
