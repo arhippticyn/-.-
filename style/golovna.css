@@ -442,6 +442,7 @@ body{
 .footer-left-iframe {
     width: 600px;
     height: 450px;
+    padding-top: 15px;
 }
 .footer-right {
   margin-left: 141px;
