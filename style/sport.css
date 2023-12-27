@@ -143,7 +143,7 @@ line-height: normal;
     position: relative;
     margin: auto;
     padding-top: 24px;
-    right: -132px;
+    right: 100px;
   }
   
   .prev, .next {
@@ -162,12 +162,13 @@ line-height: normal;
   }
   
   .next {
-    left: 66%;
+    left: 116%;
     border-radius: 3px 0 0 3px;
   }
   
   .prev:hover, .next:hover {
-    background-color: rgb(249, 247, 247);
+    background-color: rgb(0, 0, 0);
+    color: #fff;
   }
   .section-sale__cart__one{
     width: 330px;
